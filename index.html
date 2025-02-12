@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chatbot Advanced</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>AI Chatbot Advanced</h1>
+            <div class="controls">
+                <button class="button" id="clearChat" title="ล้างประวัติแชท">🗑️</button>
+                <button class="button" id="toggleSound" title="เปิด/ปิดเสียง">🔊</button>
+                <button class="button" id="themeToggle" title="สลับธีม">🌓</button>
+            </div>
+        </div>
+        <div class="toolbar">
+            <button id="suggestedQuestion1">วิธีการใช้งาน?</button>
+            <button id="suggestedQuestion2">ความสามารถของ Bot</button>
+            <button id="suggestedQuestion3">ต้องการความช่วยเหลือ</button>
+        </div>
+        <div class="chat-container" id="chatContainer">
+            <!-- Messages will be inserted here -->
+        </div>
+        <div class="typing-indicator" id="typingIndicator">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="input-container">
+            <div class="input-box">
+                <textarea 
+                    class="message-input" 
+                    id="messageInput" 
+                    placeholder="พิมพ์ข้อความของคุณที่นี่..."
+                    rows="1"
+                ></textarea>
+                <button class="send-button" id="sendButton">
+                    ส่ง
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@
 - ✅ **Local Storage Support**: เก็บประวัติแชทให้ยังคงอยู่แม้รีเฟรชหน้าเว็บ
 
 ## 🚀 Live Demo
-🔗 **[คลิกที่นี่เพื่อดู Demo](https://your-demo-link.com/)** (หากมี)
+🔗 **[คลิกที่นี่เพื่อดู Demo](https://mindenry.github.io/AIChatbotUI/)**
 
 ## 🛠️ Technologies Used
 - **HTML**: สร้างโครงสร้างหน้าเว็บ

@@ -22,7 +22,7 @@
 ## 📦 Installation
 1. Clone โปรเจคนี้:
    ```bash
-   git clone https://github.com/your-username/AIChatbotUI.git
+   git clone https://github.com/mindenry/AIChatbotUI.git
    ```
 2. ตั้งค่า API Key ของ **Gemini AI** ในไฟล์ `script.js` หรือในโค้ดของคุณ:
    ```javascript
